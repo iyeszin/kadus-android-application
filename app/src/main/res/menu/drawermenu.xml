@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/group_main_id">
+
+        <item android:title="Home"
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_home" />
+
+        <item android:title="Dictionary"
+            android:id="@+id/nav_dictionary"
+            android:icon="@drawable/ic_menu_dictionary"/>
+
+        <item android:title="Synonyms Antonyms"
+            android:id="@+id/nav_sa"
+            android:icon="@drawable/ic_menu_sa"/>
+
+        <item android:title="History"
+            android:id="@+id/nav_history"
+            android:icon="@drawable/ic_menu_history"/>
+
+        <item android:title="Learning"
+            android:id="@+id/nav_learning"
+            android:icon="@drawable/ic_menu_learning"/>
+
+        <item android:title="Videos"
+            android:id="@+id/nav_videos"
+            android:icon="@drawable/ic_menu_videos"/>
+    </group>
+
+
+    <group android:id="@+id/group_settings_id">
+
+        <item android:title="About Us"
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_menu_setting"/>
+    </group>
+
+
+</menu>

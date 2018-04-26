@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rainbow">
+
+    <TextClock
+        android:id="@+id/textClock2"
+        android:layout_width="250dp"
+        android:layout_height="63dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:shadowColor="@color/TransparentGrey"
+        android:shadowDx="3"
+        android:shadowDy="3"
+        android:shadowRadius="0.01"
+        android:textSize="50sp" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:textSize="25sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/angry_btn"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/black"
+        android:text="TextView"
+        android:shadowColor="@color/TransparentGrey"
+        android:shadowDx="3"
+        android:shadowDy="3"
+        android:shadowRadius="0.01"
+        android:layout_below="@id/textClock2" />
+
+    <ImageButton
+        android:id="@+id/angry_btn"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/dictionary_button_2"
+
+        />
+
+    <!--android:drawableTop="@drawable/ic_menu_dictionary"-->
+    <!--android:paddingTop="20dp"-->
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/angry_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="77dp"
+        android:textColor="@android:color/black"
+        android:textSize="25sp"
+        android:gravity = "center"
+        android:text="Knowledge is POWER! \n - Francis Bacon"
+        android:textStyle="italic"
+        android:shadowColor="@color/TransparentGrey"
+        android:shadowDx="3"
+        android:shadowDy="3"
+        android:shadowRadius="0.01"
+        />
+
+
+</RelativeLayout>

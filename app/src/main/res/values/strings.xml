@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Kadus</string>
+    <string name="action_settings">Settings</string>
+    <string name="send_to">Share</string>
+
+
+    <string-array name="language">
+        <item>KadazanDusun</item>
+        <item>English</item>
+        <item>Malay</item>
+    </string-array>
+    <string-array name="language2">
+        <item>English</item>
+        <item>KadazanDusun</item>
+        <item>Malay</item>
+    </string-array>
+
+</resources>
